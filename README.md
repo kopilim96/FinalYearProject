@@ -20,3 +20,9 @@ Tools:
 - File Provider
 
 **Before running this Application, make sure you enable your camera, file and storage permission in your Setting --> Application Management**
+
+Reference:
+1. Zxing https://github.com/zxing/zxing
+2. Generate Color QR Code https://www.programcreek.com/java-api-examples/?class=android.graphics.Bitmap&method=setPixel
+3. Firebase Authentication https://firebase.google.com/docs/auth/
+4. Recycler view + Card View https://www.androidhive.info/2016/01/android-working-with-recycler-view/
