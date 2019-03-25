@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/scanQR"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Scan QR Code" />
+        <item
+            android:id="@+id/importFromGallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Import from Gallery" />
+        <item
+            android:id="@+id/encodeQR"
+            android:icon="?android:attr/actionModeSelectAllDrawable"
+            android:title="Create QR Code" />
+        <item
+            android:id="@+id/encodeColorQR"
+            android:icon="?android:attr/actionModeCopyDrawable"
+            android:title="Create Color QR Code" />
+
+        <item
+            android:id="@+id/decodeColor"
+            android:icon="@drawable/decon_icon"
+            android:title="Decode Color QR Code"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

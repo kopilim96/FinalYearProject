@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+    tools:context=".ActivityAdminPage"
+    android:background="@drawable/activity_background"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Admin Page"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:textColor="#D0CCD3"
+        android:layout_margin="25dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/adminLogout"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:clickable="true"
+        android:src="@drawable/logout_icon"
+        android:scaleType="fitXY"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+
+</LinearLayout>

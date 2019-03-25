@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">QR Scanner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ruleInImportGallery">Rule: Please import QR Code image ONLY. Other than QR Code image will NOT be Readable and will Cause Phone in Crush.</string>
+    <string name="ruleInCreateColorQRCode">Rule: The creation of Color QR Code MUST be import EIGHT (8) numbers of QR Code and the QR Codes MUST be in the SAME SIZE instead of others image and different SIZE.
+Otherwise, It would cause your phone in Crush. </string>
+    <string name="ruleInDecode">Rule: The DECODE function MUST be insert the COLOR QR CODE(which can be generate from this Apps).
+        Other than COLOR QR CODE, it may cause your phone in Crush OR you may not get the result with expected.</string>
+
+    <string name="qrpart1">The QR Code is a two-dimensional version of the barcode, known from product packaging in the supermarket.
+        \n\nOriginally developed for process optimization in the logistics of the automotive industry, the QR Code has found its way into mobile marketing with the widespread adoption of smartphones.
+        \n\n"QR" stands for "Quick Response", which refers to the instant access to the information hidden in the Code.
+        \n\nQR Codes are gaining popularity because the technology is "open source", i.e. available for everyone.
+        \n\nSignificant advantages of QR Codes over conventional barcodes are larger data capacity and high fault tolerance.</string>
+
+    <string name="qrpart2">The black and white checkered pixel patterns appear at first glance to be a small crossword puzzle and seem to be composed at random. But if you look closely,
+        certain structures can be identified. For the scanner to recognize a QR Code as such, the Code must always be square. A number of additional elements ensure that the information is read correctly.</string>
+
+    <string name="qrpart3">Up to 7089 digits or 4296 characters, including punctuation marks and special characters, can be entered in one Code. In addition to numbers and characters, words and
+        phrases (e.g. Internet addresses) can be encoded as well. As more data is added to the QR Code, the Code size increases and the Code structure becomes more complex.</string>
+
+
+    <string name="colorqr1">Since the QR Code has been widely use today, somehow the most common limitation of a single QR Code is
+    the black/white QR Code has the limited capacity storage with maximum 7089 of numeric character and 4296 of alphanumeric.
+    \nTo overcome the limitation of QR Code, some researchers from worldwide has done the similar research and investigation to develop a solution
+    but still, the related field is limited.
+    \n\n\nHowever, some of them has coming out the idea of merging the b/w QR Code to come out with the better capacity storage of QR Code. However, the progress of merging the
+    QR Code is still needed enhanced due to limited source and tools. </string>
+
+    <string name="colorqr2">\nPhase 1: Generate 8 numbers of b/w QR Code and make sure the QR Codes is not empty
+    \n\nPhase 2: Import them to this Mobile Mono Color QR Code Application
+    \n\nPhase 3: Click on "Generate" button
+    \n\nPhase 4: The encode process.
+    \n\t\t- The system will decode the 8 numbers of QR Code and get the data from the QR Code
+    \n\t\t- Then the system will continue to decode and calculate to get binary value(1/0) from every Pixel of the QR Code
+    \n\t\t- Since we got 8 numbers of QR Code, get the 1st index of each binary value of the QR Code and integrate them
+    \n\t\t- Then it will get the combined binary value which will be (e.g. 11001100)
+    \n\t\t- Convert the binary to hexadecimal value to print color for colored QR Code (based on the scope of this project it will print 3 RBG colored QR Code)
+    \n\t\t- Then encode the colored QR Code with combining the data from 8 numbers of QR Code
+    \n\nPhase 5: Successful generate the colored QR Code and it will be saved in device automatically</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_result_colorQR"
+    android:background="@drawable/activity_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color QR Code"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageResult"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textResultColorQR"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text=""
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultText"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Result"
+            android:textColor="#ffffff"
+            android:enabled="true"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:focusable="true"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

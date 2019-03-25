@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_info_color_qr"
+    android:background="@drawable/activity_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is Color QR Code"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:textSize="23dp"
+        android:layout_marginLeft="14dp"
+        />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/colorqr"
+                android:layout_marginLeft="20dp"
+                />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/colorqr1"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/colorqr2"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:text="The Concept of Colored QR Code"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="222dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/info_color_qr"
+            android:layout_marginTop="3dp"
+            />
+
+
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/transparent_login_page"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColorHighlight="@android:color/black"
+        android:textStyle="bold"
+        android:text="Register Account"
+        android:layout_marginTop="20dp"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp">
+
+        <EditText
+            android:id="@+id/emailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="7"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp">
+
+        <EditText
+            android:id="@+id/passwordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="7"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp">
+
+        <EditText
+            android:id="@+id/secondpasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="7"
+            android:hint="Re-enter Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp">
+
+        <EditText
+            android:id="@+id/nameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="7"
+            android:hint="Full Name in IC"
+            android:inputType="text"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp">
+
+        <EditText
+            android:id="@+id/icRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="7"
+            android:hint="Ic Number"
+            android:inputType="number"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/registerBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:onClick="click"
+        android:text="Register"
+        android:textAlignment="center"
+        android:background="#87CEEB"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/backToLoginBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:background="@null"
+        android:clickable="true"
+        android:onClick="click"
+        android:text="Already Register ? Login Now"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="11dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

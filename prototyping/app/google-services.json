@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "157002858057",
+    "firebase_url": "https://prototyping-14ba8.firebaseio.com",
+    "project_id": "prototyping-14ba8",
+    "storage_bucket": "prototyping-14ba8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157002858057:android:d10dea63459dfc71",
+        "android_client_info": {
+          "package_name": "kopilim.scs.prototyping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157002858057-is5tf52bgigrcvht7q0ndl53oi0rrvru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kopilim.scs.prototyping",
+            "certificate_hash": "9adc46d66f24b62a4a9f03d8473bcf692f47acb2"
+          }
+        },
+        {
+          "client_id": "157002858057-0ehlbuubo1g5v8jmj4lh4c9o24h7qfrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvrODZrcCzXd7vmr3tAgeWxBiQ26SYeSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157002858057-0ehlbuubo1g5v8jmj4lh4c9o24h7qfrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

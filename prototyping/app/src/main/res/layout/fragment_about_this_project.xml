@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_about_this_project"
+    android:background="@drawable/activity_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail of Developer"
+            android:textSize="23dp"
+            android:textColor="#cc00cc"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developer     : Lim Kok Peng"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Years             : Year 3 (Semester 6)"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course          : Bachelor of Information Technology with Majoring Software Engineering"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail of Supervisor"
+            android:textSize="23dp"
+            android:textColor="#cc00cc"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supervisor               : Dr. Azizi bin Abas"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Previous Research: Updating information in Colored QR Code for Knowledge Sharing (2016)"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Research Paper Link"
+            android:textColor="#ffffff"
+            android:id="@+id/linkTextview"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="About this Project"
+            android:textStyle="bold"
+            android:textColor="#cc00cc"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idea of this Project:"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="i.  To increase the capacity storage of QR Code\nii. To investigate the performance of Colored QR Code"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Features: "
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="i.   Encode b/w QR Code\nii.  Encode Colored QR Code\niii. Decode QR b/w Code\niv. Decode Colored QR Code\nv. Scan QR Code"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Scope: "
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:text="i.  This Project is a simulation prototype only\nii. This project is working for Android-Device only\niii. Able to Scan, Encode, Decode QR Code"
+            />
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
